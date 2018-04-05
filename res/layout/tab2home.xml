@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="291dp"
+        android:layout_height="91dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="291dp"
+        android:layout_height="91dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="291dp"
+        android:layout_height="91dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="89dp"
+        android:src="@drawable/BatteryIcon"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="76dp"
+        android:layout_height="92dp"
+        android:src="@drawable/CO2ICON"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="76dp"
+        android:layout_height="92dp"
+        android:src="@drawable/CO2ICON"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+</android.support.constraint.ConstraintLayout>
